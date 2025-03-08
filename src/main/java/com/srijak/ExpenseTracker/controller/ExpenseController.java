@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @RequiredArgsConstructor
 @CrossOrigin("*")
 public class ExpenseController {
+
     private final ExpenseService expenseService;
 
     @PostMapping
